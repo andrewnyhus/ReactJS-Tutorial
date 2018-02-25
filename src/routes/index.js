@@ -15,7 +15,7 @@ export default () => (
           <Route exact path={"/"} component={Home}/>
           <Route path={"/home"} component={Home}/>
           <Route path={"/news"} component={News} />
-          <Route component={NotFound}/>
+          <Route component={Home}/>
         </Switch>
       </Root>
     </div>
