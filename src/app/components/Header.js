@@ -8,8 +8,8 @@ export const Header = (props) => {
       <div className="container">
         <div className="navbar-header">
           <ul className="nav navbar-nav">
-            <li><Link to="home" activeStyle={{color: "blue"}} >Home</Link></li>
-            <li><Link to="news" activeStyle={{color: "blue"}} >News</Link></li>
+            <li><Link to="/home" activeStyle={{color: "blue"}} >Home</Link></li>
+            <li><Link to="/news" activeStyle={{color: "blue"}} >News</Link></li>
           </ul>
         </div>
       </div>
